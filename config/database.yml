@@ -81,5 +81,6 @@ test:
 production:
   <<: *default
   database: emeraude_production
-  username: emeraude
-  password: <%= ENV['EMERAUDE_DATABASE_PASSWORD'] %>
+  username:
+  password:
+  host: 127.0.0.1
